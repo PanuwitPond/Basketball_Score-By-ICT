@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    background-image: url('https://th.bing.com/th/id/OIP.uJBkwWsL4kyNcpsxdG1IrgHaFj?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgb(238, 105, 15);
+    padding: 5%;
+    width: 80%;
+    max-width: 100vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row; /* Change to row for horizontal layout */
+    justify-content: space-between; /* Add space between team sections */
+}
+
+.team {
+    width: 48%; /* Adjust width for two teams with some spacing in between */
+    margin: 0;
+    font-size: 5vw;
+    text-align: center;
+}
+
+input {
+    width: 10vw;
+    padding: 5vw;
+    margin-bottom: 10vw;
+    font-size: 2vw;
+}
+
+.tm{
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+  color: #000000;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#team1 {
+    width: 70%; /* Adjust the percentage based on your preference */
+    padding: 2%; /* Adjust padding based on your preference */
+    margin-bottom: 10px;
+}
+
+#team2 {
+    width: 70%; /* Adjust the percentage based on your preference */
+    padding: 2%; /* Adjust padding based on your preference */
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 6vw;
+    font-weight: bold;
+    margin-bottom: 0; /* Remove margin to keep scores in the same row */
+    color: #f2f2f2;
+    background-color: rgb(32, 32, 32);
+    padding: 3vw;
+}
+
+.buttons button {
+    font-size: 2vw;
+    padding: 2vw 4vw;
+    margin: 1vw;
+}
+
+.buttonss:active{
+    background-color: #ffd311;
+}
+
+footer {
+    text-align: center;
+    padding: 1.2vw; /* Adjust as needed */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Set a background color for the footer */
+    color: #fff; /* Set text color for the footer */
+}
